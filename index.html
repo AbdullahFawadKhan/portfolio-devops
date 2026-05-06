@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hello from DevOps Pipeline</h1>
+        <p>This containerized app was deployed via:</p>
+        <ul>
+            <li>Git + GitHub</li>
+            <li>Docker</li>
+            <li>GitHub Actions CI/CD</li>
+            <li>AWS EC2</li>
+        </ul>
+        <p>Deployed at: <span id="datetime"></span></p>
+    </div>
+    <script>
+        document.getElementById('datetime').innerHTML = new Date().toLocaleString();
+    </script>
+</body>
+</html>
