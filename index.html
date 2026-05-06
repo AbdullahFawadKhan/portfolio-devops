@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DevOps Portfolio</title>
+    <title>MTG Pro Decklist</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>THIS TEXT HAS BEEN CHANGED ONCE  . . . Hello from DevOps Pipeline</h1>
-        <p>This containerized app was deployed via:</p>
-        <ul>
-            <li>Git + GitHub</li>
-            <li>Docker</li>
-            <li>GitHub Actions CI/CD</li>
-            <li>AWS EC2</li>
-        </ul>
-        <p>Deployed at: <span id="datetime"></span></p>
+        <h1>🏆 Pro Tour Decklist 🏆</h1>
+        <h2>Player: Abdullah Fawad Khan</h2>
+        <h3>Archetype: Mono-Red Aggro (Tournament Ready)</h3>
+        
+        <div class="deck-section">
+            <h4>Main Deck (60 cards)</h4>
+            <ul>
+                <li>4x Lightning Bolt</li>
+                <li>4x Goblin Guide</li>
+                <li>4x Monastery Swiftspear</li>
+                <li>4x Eidolon of the Great Revel</li>
+                <li>4x Lava Spike</li>
+                <li>4x Rift Bolt</li>
+                <li>4x Skewer the Critics</li>
+                <li>4x Boros Charm</li>
+                <li>4x Arid Mesa</li>
+                <li>4x Sacred Foundry</li>
+                <li>10x Mountain</li>
+            </ul>
+        </div>
+        
+        <div class="deck-section">
+            <h4>Sideboard (15 cards)</h4>
+            <ul>
+                <li>3x Path to Exile</li>
+                <li>3x Smash to Smithereens</li>
+                <li>3x Rest in Peace</li>
+                <li>3x Kor Firewalker</li>
+                <li>3x Deflecting Palm</li>
+            </ul>
+        </div>
+        
+        <p><strong>Last updated:</strong> <span id="datetime"></span></p>
+        <p><em>Update this decklist by editing index.html and pushing to GitHub</em></p>
     </div>
     <script>
         document.getElementById('datetime').innerHTML = new Date().toLocaleString();
